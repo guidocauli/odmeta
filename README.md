@@ -8,4 +8,10 @@ archive, parsing and outputting it in standard JSON format.
 
 Using the -i option it can output indented JSON.
 
+## Compiling and installing
+
+You can compile the source with the command:
+
+make
+
 NOTICE: this software is licensed by GNU General Public License v3.0 and is provided WITHOUT ANY WARRANTY.
