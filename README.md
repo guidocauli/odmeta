@@ -15,14 +15,23 @@ like the word count, the page count and whitespace count (just because I actuall
 
 Using the -i option 'odmeta' it can output indented JSON.
 
+
+
 ## Compile and install (GNU/Linux)
 
 In order to compile the source, you need the GO compiler. 
-You can compile the source with the command:
+
+### Install XML required modules
+
+First, you need to get the XML module:
 ~~~
 go mod init aqwari.net/xml
 go mod download aqwari.net/xml
 go mod tidy
+~~~
+
+Then you can compile the source with the command:
+~~~
 make
 ~~~
 and install into your system with:
