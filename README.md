@@ -20,6 +20,8 @@ Using the -i option 'odmeta' it can output indented JSON.
 In order to compile the source, you need the GO compiler. 
 You can compile the source with the command:
 ~~~
+go mod init aqwari.net/xml/xmltree
+go mod tidy
 make
 ~~~
 and install into your system with:
