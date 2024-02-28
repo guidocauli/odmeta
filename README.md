@@ -26,8 +26,8 @@ First and foremost, you need to get the XML module:
 From your console (Windows CLI/PowerShell or Linux console) type:
 
 ~~~
-go mod init aqwari.net/xml
-go mod download aqwari.net/xml
+go install aqwari.net/xml/xmltree@v0.0.0-20210331023308-d9421b293817
+go mod init aqwari.net/xmltree
 go mod tidy
 ~~~
 
