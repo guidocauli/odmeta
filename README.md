@@ -23,7 +23,7 @@ Using the -i option 'odmeta' it can output indented JSON.
 You will need GO compiler correctly installed onto your system.
 
 First and foremost, you need to get the XML module:
-From your console (Windows CLI/PowerShell or Linux console) type:
+From your console (Windows CMD/PowerShell or Linux console) type:
 
 ~~~
 go install aqwari.net/xml/xmltree@v0.0.0-20210331023308-d9421b293817
@@ -35,7 +35,7 @@ go mod tidy
 
 ### MS Windows
 
-In order to compile the source in MS Windows, from CLI (or PowerShell) you have to issue the commmand:
+In order to compile the source in MS Windows, from CMD (or PowerShell) you have to issue the commmand:
 
 ~~~
 go build odmeta-src.go -o odmeta
